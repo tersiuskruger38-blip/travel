@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "NYC Travel Companion",
+    "slug": "travel",
+    "owner": "tersiusk",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "nyctravel",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E8590C"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.nyc.travelcompanion"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png",
+        "backgroundColor": "#FAFAF8"
+      },
+      "package": "com.nyc.travelcompanion",
+      "versionCode": 1
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1c4732be-6078-46f1-bc23-dbdbb174e328"
+      }
+    }
+  }
+}
